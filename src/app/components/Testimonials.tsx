@@ -1,9 +1,12 @@
 import Image from "next/image";
+import { whatsappLink } from "../lib/site";
+import { WhatsAppIcon } from "./WhatsAppButton";
 
 /*
-  El PRIMER testimonio es REAL (Amelia Palacios y su boxer Cleopatra).
-  Los otros dos son EJEMPLOS de muestra: reemplazar por testimonios
-  reales de clientes de Hernán (pídele capturas de chats) antes de publicar.
+  Solo testimonios REALES de clientes.
+  Para agregar uno nuevo, copia un objeto y llena los datos.
+  Si tienes foto del perro, ponla en public/images y escribe la ruta en "img".
+  Si no hay foto, deja img: "" y se mostrará un emoji.
 */
 const testimonios = [
   {
@@ -12,20 +15,6 @@ const testimonios = [
     img: "/images/cleopatra.jpg",
     texto:
       "La atención de Hernán fue la mejor de todas. Llegó a mi casa con arneses de todas las tallas, colores y telas para probárselos a mi boxer Cleopatra hasta encontrar el ideal. Incluso nos mostró un modelo con bolsillos que llevaba para otro cliente, y nos encantó tanto ese modelo que pedimos uno igual en otro color… ¡junto con otro arnés más!",
-  },
-  {
-    nombre: "Cliente de ejemplo 2",
-    perro: "(reemplazar)",
-    img: "",
-    texto:
-      "Un buen testimonio menciona el problema que tenía y cómo el arnés lo resolvió (ej: 'mi perro ya no se escapa'). Pídele a Hernán una captura real.",
-  },
-  {
-    nombre: "Cliente de ejemplo 3",
-    perro: "(reemplazar)",
-    img: "",
-    texto:
-      "Los testimonios reales generan mucha confianza y ayudan a vender. ¡Son uno de los elementos más importantes de la página!",
   },
 ];
 
@@ -43,7 +32,7 @@ export default function Testimonials() {
           </h2>
         </div>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-3">
+        <div className="mt-14 grid gap-6 md:grid-cols-2">
           {testimonios.map((t) => (
             <figure
               key={t.nombre}
@@ -80,6 +69,29 @@ export default function Testimonials() {
               </figcaption>
             </figure>
           ))}
+
+          {/* Tarjeta para invitar a dejar una reseña */}
+          <a
+            href={whatsappLink(
+              "Hola Hernán 👋 Quiero dejar mi reseña sobre mi compra en Leiter & Konig Pet's: ",
+            )}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-brand-blue/40 bg-brand-blue/5 p-7 text-center transition-colors hover:bg-brand-blue/10"
+          >
+            <span className="text-4xl">⭐</span>
+            <h3 className="mt-3 text-xl font-extrabold text-brand-dark">
+              ¿Ya eres cliente? Deja tu reseña
+            </h3>
+            <p className="mt-2 text-sm text-brand-dark/70">
+              Cuéntanos cómo te fue con tu arnés y, con tu permiso, publicamos tu
+              experiencia aquí. ¡Nos ayudas un montón! 🐾
+            </p>
+            <span className="mt-5 inline-flex items-center gap-2 rounded-full bg-whatsapp px-5 py-3 text-sm font-bold text-white shadow-md transition-transform group-hover:scale-105">
+              <WhatsAppIcon className="h-5 w-5" />
+              Enviar mi reseña
+            </span>
+          </a>
         </div>
       </div>
     </section>
