@@ -32,7 +32,7 @@ export default function Story() {
           <div className="mt-5 space-y-4 text-lg leading-relaxed text-brand-dark/75">
             <p>
               <strong className="text-brand-dark">Leiter</strong> y{" "}
-              <strong className="text-brand-dark">König</strong> son los dos
+              <strong className="text-brand-dark">Konig</strong> son los dos
               pastores alemanes de {site.dueno} —{" "}
               <strong className="text-brand-dark">padre e hijo</strong> — y los
               que le dan el nombre y el alma a este negocio. Ellos son los que
@@ -44,7 +44,7 @@ export default function Story() {
               <strong className="text-brand-dark">ciclismo</strong>. Sabe lo que
               significa salir a la montaña, al sendero o a la ruta y necesitar
               equipo que de verdad aguante. Por eso elige cada arnés y chaleco
-              pensando en los perros que, como Leiter y König, viven la vida al
+              pensando en los perros que, como Leiter y Konig, viven la vida al
               aire libre.
             </p>
             <p>
