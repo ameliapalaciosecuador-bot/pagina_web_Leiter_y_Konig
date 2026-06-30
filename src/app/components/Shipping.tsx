@@ -9,9 +9,9 @@ const puntos = [
     texto: "Estés en la ciudad que estés, te llevamos el equipo perfecto para tu perro.",
   },
   {
-    icon: "📦",
-    titulo: "Entrega en tu puerta",
-    texto: "Recibe tu pedido a domicilio en cualquier parte del país.",
+    icon: "🤝",
+    titulo: "Envíos a otras ciudades",
+    texto: "El envío fuera de la ciudad lo coordinamos contigo por WhatsApp: acordamos juntos la forma de entrega y el costo.",
   },
   {
     icon: "👀",

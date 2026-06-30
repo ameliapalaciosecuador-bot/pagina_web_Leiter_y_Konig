@@ -3,7 +3,7 @@ import WhatsAppButton from "./WhatsAppButton";
 const preguntas = [
   {
     q: "¿Hacen envíos? ¿A dónde?",
-    a: "Sí. Hacemos envíos a todo el Ecuador 🇪🇨, sin importar la ciudad. Escríbenos por WhatsApp y coordinamos la entrega hasta la puerta de tu casa.",
+    a: "Sí. Llegamos a todo el Ecuador 🇪🇨. El envío a otras ciudades lo coordinamos contigo por WhatsApp: acordamos juntos la forma de entrega y el costo.",
   },
   {
     q: "¿Cómo sé qué talla elegir?",

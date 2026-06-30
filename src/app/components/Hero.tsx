@@ -8,8 +8,8 @@ export default function Hero() {
       {/* Foto de fondo: perros corriendo con sus arneses */}
       <div className="absolute inset-0">
         <Image
-          src="/images/husky-pastor-corriendo.jpg"
-          alt="Perros corriendo felices con sus arneses Leiter & Konig Pet's"
+          src="/images/portada-leiter-konig.jpg"
+          alt="Leiter y Konig, los dos pastores alemanes de la marca, con sus arneses en la montaña"
           fill
           priority
           sizes="100vw"
@@ -48,8 +48,8 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="mt-4 flex items-center gap-2 text-sm font-semibold text-white/80">
-          <span className="text-lg">🚚</span> Hacemos envíos a todo el Ecuador
+        <div className="mt-4 flex items-center gap-3 text-lg font-bold text-white sm:text-xl">
+          <span className="text-4xl">🚚</span> Hacemos envíos a todo el Ecuador
         </div>
       </div>
     </section>

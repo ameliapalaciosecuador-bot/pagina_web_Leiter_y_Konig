@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Custom from "./components/Custom";
 import Benefits from "./components/Benefits";
 import Story from "./components/Story";
 import Products from "./components/Products";
@@ -17,6 +18,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
+        <Custom />
         <Benefits />
         <Story />
         <Products />
