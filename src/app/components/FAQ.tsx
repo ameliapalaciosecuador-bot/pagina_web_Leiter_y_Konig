@@ -3,7 +3,7 @@ import WhatsAppButton from "./WhatsAppButton";
 const preguntas = [
   {
     q: "¿Hacen envíos? ¿A dónde?",
-    a: "Sí. Entregamos a domicilio en Sangolquí, Cumbayá y el Valle de los Chillos, y hacemos envíos a todo el Ecuador. Escríbenos por WhatsApp y coordinamos el envío a tu ciudad.",
+    a: "Sí. Hacemos envíos a todo el Ecuador 🇪🇨, sin importar la ciudad. Escríbenos por WhatsApp y coordinamos la entrega hasta la puerta de tu casa.",
   },
   {
     q: "¿Cómo sé qué talla elegir?",
@@ -19,7 +19,7 @@ const preguntas = [
   },
   {
     q: "¿Puedo ver el producto antes de comprar?",
-    a: "Claro. En Sangolquí, Cumbayá y el Valle de los Chillos podemos llevarte el producto a domicilio para que lo veas y lo pruebes en tu perro.",
+    a: "Claro. Te asesoramos por WhatsApp con fotos y videos reales de cada producto, para que elijas con total confianza antes de tu compra.",
   },
   {
     q: "¿Cómo realizo el pago?",
@@ -61,7 +61,7 @@ export default function FAQ() {
           <p className="mb-4 text-brand-dark/70">
             ¿Tienes otra pregunta? Estamos para ayudarte. 🐾
           </p>
-          <WhatsAppButton mensaje="Hola Hernán 👋 Tengo una pregunta sobre sus productos para perros.">
+          <WhatsAppButton mensaje="Hola Alejandro 👋 Tengo una pregunta sobre sus productos para perros.">
             Pregúntanos por WhatsApp
           </WhatsAppButton>
         </div>

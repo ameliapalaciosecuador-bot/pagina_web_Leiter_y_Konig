@@ -15,7 +15,7 @@ export default function Footer() {
             Contacto
           </h3>
           <ul className="mt-4 space-y-2 text-sm text-white/80">
-            <li>📍 {site.zona}</li>
+            <li>🇪🇨 {site.zona}</li>
             <li>📱 WhatsApp: {site.whatsappMostrar}</li>
             <li>👤 {site.dueno}</li>
           </ul>

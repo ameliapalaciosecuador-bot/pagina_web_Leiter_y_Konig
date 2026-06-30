@@ -4,19 +4,19 @@ import { site } from "../lib/site";
 
 const puntos = [
   {
-    icon: "🚚",
+    icon: "🇪🇨",
     titulo: "Envíos a todo el Ecuador",
-    texto: "Estés donde estés, le llevamos el equipo perfecto a tu perro.",
+    texto: "Estés en la ciudad que estés, te llevamos el equipo perfecto para tu perro.",
   },
   {
-    icon: "🏠",
-    titulo: "Entrega a domicilio",
-    texto: "En el Valle de los Chillos te lo llevamos para que lo pruebes.",
+    icon: "📦",
+    titulo: "Entrega en tu puerta",
+    texto: "Recibe tu pedido a domicilio en cualquier parte del país.",
   },
   {
     icon: "👀",
-    titulo: "Pruébalo en tu perro",
-    texto: "Te mostramos el producto en vivo antes de que decidas.",
+    titulo: "Asesoría personalizada",
+    texto: "Te ayudamos por WhatsApp a elegir el modelo y la talla ideal.",
   },
 ];
 
@@ -27,8 +27,8 @@ export default function Shipping() {
         {/* Foto del dueño con sus perros */}
         <div className="relative aspect-[4/5] overflow-hidden rounded-3xl ring-4 ring-white/10 sm:aspect-[4/3] lg:aspect-[4/5]">
           <Image
-            src="/images/hernan-con-pastores.jpg"
-            alt="Hernán Parra, dueño de Leiter & Konig Pet's, con sus pastores alemanes"
+            src="/images/alejandro-con-pastores.jpg"
+            alt="Alejandro Parra, dueño de Leiter & Konig Pet's, con sus pastores alemanes"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"
             className="object-cover object-top"
@@ -65,7 +65,7 @@ export default function Shipping() {
           </div>
 
           <div className="mt-9">
-            <WhatsAppButton mensaje="Hola Hernán 👋 ¿Hacen envíos a mi ciudad? Quiero un arnés para mi perro.">
+            <WhatsAppButton mensaje="Hola Alejandro 👋 Quiero un arnés para mi perro. ¿Cómo es el envío a mi ciudad?">
               Pregunta por tu envío
             </WhatsAppButton>
           </div>

@@ -15,13 +15,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Leiter & Konig Pet's | Arneses y chalecos tácticos para perros",
   description:
-    "Arneses, chalecos y mochilas tácticas para perros fuertes y aventureros. Seguros, resistentes y cómodos. Envíos a todo el Ecuador. Valle de los Chillos.",
+    "Arneses, chalecos y mochilas tácticas para perros fuertes y aventureros. Seguros, resistentes y cómodos. Envíos a todo el Ecuador.",
   keywords: [
     "arneses para perros",
     "chalecos tácticos perros",
     "arnés antiescape",
     "accesorios para perros Ecuador",
-    "Valle de los Chillos",
+    "envíos a todo el Ecuador",
     "Leiter & Konig Pet's",
   ],
 };

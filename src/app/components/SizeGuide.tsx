@@ -91,7 +91,7 @@ export default function SizeGuide() {
           </p>
           <WhatsAppButton
             className="shrink-0 !px-6 !py-3 text-sm"
-            mensaje="Hola Hernán 👋 El pecho de mi perro mide ___ cm. ¿Qué talla de arnés me recomiendas?"
+            mensaje="Hola Alejandro 👋 El pecho de mi perro mide ___ cm. ¿Qué talla de arnés me recomiendas?"
           >
             Pregunta tu talla
           </WhatsAppButton>

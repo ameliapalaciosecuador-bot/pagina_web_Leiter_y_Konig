@@ -20,8 +20,8 @@ export default function Hero() {
       </div>
 
       <div className="relative mx-auto flex max-w-6xl flex-col items-start gap-6 px-5 py-24 sm:py-32 lg:py-40">
-        <span className="inline-flex items-center gap-2 rounded-full bg-brand-orange px-4 py-1.5 text-sm font-bold text-white shadow-lg">
-          🐾 {site.zona}
+        <span className="inline-flex items-center gap-2.5 rounded-full bg-brand-orange px-7 py-3 text-lg font-bold text-white shadow-lg sm:text-xl">
+          <span className="text-2xl">🐾</span> {site.slogan}
         </span>
 
         <h1 className="max-w-3xl text-4xl font-black uppercase leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-6xl">
@@ -37,7 +37,7 @@ export default function Hero() {
         </p>
 
         <div className="mt-2 flex flex-col gap-3 sm:flex-row sm:items-center">
-          <WhatsAppButton mensaje="Hola Hernán 👋 Quiero info y precios de sus arneses para perros.">
+          <WhatsAppButton mensaje="Hola Alejandro 👋 Quiero info y precios de sus arneses para perros.">
             Pídelo por WhatsApp
           </WhatsAppButton>
           <a

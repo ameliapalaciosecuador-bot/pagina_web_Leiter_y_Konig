@@ -7,14 +7,13 @@ export default function Story() {
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 lg:grid-cols-2">
         {/* Logo como protagonista: los dos pastores que dan nombre a la marca */}
         <div className="flex justify-center">
-          <div className="relative">
-            <div className="absolute -inset-4 rounded-full bg-brand-blue/10" />
+          <div className="relative aspect-square w-full max-w-[320px] overflow-hidden rounded-full bg-white shadow-xl ring-8 ring-brand-blue/10">
             <Image
               src="/images/logo.png"
               alt="Logotipo de Leiter & Konig Pet's con sus dos pastores alemanes"
-              width={380}
-              height={380}
-              className="relative h-auto w-full max-w-[340px] drop-shadow-xl"
+              fill
+              sizes="320px"
+              className="object-contain"
             />
           </div>
         </div>
@@ -25,27 +24,27 @@ export default function Story() {
             Nuestra historia
           </span>
           <h2 className="mt-2 text-3xl font-black uppercase leading-tight tracking-tight text-brand-dark sm:text-4xl">
-            Un nombre con{" "}
-            <span className="text-brand-red">cuatro patas</span>
+            Todo empezó con{" "}
+            <span className="text-brand-red">dos perros</span>
           </h2>
 
           <div className="mt-5 space-y-4 text-lg leading-relaxed text-brand-dark/75">
             <p>
               <strong className="text-brand-dark">Leiter</strong> y{" "}
               <strong className="text-brand-dark">Konig</strong> son los dos
-              pastores alemanes de {site.dueno} —{" "}
-              <strong className="text-brand-dark">padre e hijo</strong> — y los
-              que le dan el nombre y el alma a este negocio. Ellos son los que
-              ves en nuestro logo. 🐾
+              pastores alemanes de {site.dueno}:{" "}
+              <strong className="text-brand-dark">padre e hijo</strong>. De ellos
+              nació esta tienda, y son justamente los dos perros que ves en el
+              logo. 🐾
             </p>
             <p>
-              {site.dueno} es un apasionado de la{" "}
+              A {site.dueno} le apasionan la{" "}
               <strong className="text-brand-dark">aventura</strong> y el{" "}
-              <strong className="text-brand-dark">ciclismo</strong>. Sabe lo que
-              significa salir a la montaña, al sendero o a la ruta y necesitar
+              <strong className="text-brand-dark">ciclismo</strong>. Conoce lo
+              que es salir a la montaña, al sendero o a la ruta y necesitar
               equipo que de verdad aguante. Por eso elige cada arnés y chaleco
-              pensando en los perros que, como Leiter y Konig, viven la vida al
-              aire libre.
+              pensando en perros activos como Leiter y Konig, que viven la vida
+              al aire libre.
             </p>
             <p>
               Aquí no vendemos un accesorio cualquiera: compartimos lo que a
@@ -58,7 +57,7 @@ export default function Story() {
             {[
               { icon: "🐕", label: "Padre e hijo" },
               { icon: "🚵", label: "Espíritu aventurero" },
-              { icon: "🤝", label: "De dueño a dueño" },
+              { icon: "🐶", label: "Amante de los perros" },
             ].map((v) => (
               <span
                 key={v.label}

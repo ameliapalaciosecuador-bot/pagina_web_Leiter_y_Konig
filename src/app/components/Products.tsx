@@ -58,7 +58,7 @@ export default function Products() {
             <a
               key={p.nombre}
               href={whatsappLink(
-                `Hola Hernán 👋 Me interesa: ${p.nombre}. ¿Qué precio tiene y qué tallas hay?`,
+                `Hola Alejandro 👋 Me interesa: ${p.nombre}. ¿Qué precio tiene y qué tallas hay?`,
               )}
               target="_blank"
               rel="noopener noreferrer"
@@ -91,7 +91,7 @@ export default function Products() {
           {/* Tarjeta especial: placas personalizadas (servicio confirmado en su TikTok) */}
           <a
             href={whatsappLink(
-              "Hola Hernán 👋 Quiero una placa personalizada con el nombre de mi perro. ¿Cómo la pido?",
+              "Hola Alejandro 👋 Quiero una placa personalizada con el nombre de mi perro. ¿Cómo la pido?",
             )}
             target="_blank"
             rel="noopener noreferrer"

@@ -19,7 +19,7 @@ export default function FinalCTA() {
           <WhatsAppButton
             variant="light"
             className="!px-9 !py-5 text-lg"
-            mensaje="Hola Hernán 👋 Quiero que me ayudes a elegir el arnés perfecto para mi perro."
+            mensaje="Hola Alejandro 👋 Quiero que me ayudes a elegir el arnés perfecto para mi perro."
           >
             Quiero el mío ahora
           </WhatsAppButton>

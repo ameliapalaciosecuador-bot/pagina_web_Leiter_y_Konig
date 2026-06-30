@@ -2,7 +2,7 @@ import Image from "next/image";
 
 /*
   Solo testimonios REALES de clientes.
-  Para agregar uno nuevo (cuando Hernán los envíe), copia un objeto de la lista
+  Para agregar uno nuevo (cuando Alejandro los envíe), copia un objeto de la lista
   y llena los datos. Si tienes foto del perro, ponla en public/images y escribe
   la ruta en "img". Si no hay foto, deja img: "" y se mostrará un emoji.
   (Cuando haya 2 o más, cambiar el contenedor a un grid de varias columnas.)
@@ -13,7 +13,7 @@ const testimonios = [
     perro: "Cleopatra, boxer atigrada",
     img: "/images/cleopatra.jpg",
     texto:
-      "La atención de Hernán fue la mejor de todas. Llegó a mi casa con arneses de todas las tallas, colores y telas para probárselos a mi boxer Cleopatra hasta encontrar el ideal. Incluso nos mostró un modelo con bolsillos que llevaba para otro cliente, y nos encantó tanto ese modelo que pedimos uno igual en otro color… ¡junto con otro arnés más!",
+      "La atención de Alejandro fue la mejor de todas. Llegó a mi casa con arneses de todas las tallas, colores y telas para probárselos a mi boxer Cleopatra hasta encontrar el ideal. Incluso nos mostró un modelo con bolsillos que llevaba para otro cliente, y nos encantó tanto ese modelo que pedimos uno igual en otro color… ¡junto con otro arnés más!",
   },
 ];
 
